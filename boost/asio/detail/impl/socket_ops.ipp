@@ -2662,7 +2662,7 @@ inline int gai_serv(addrinfo_type* aihead,
 #if defined(AI_NUMERICSERV)
       (hints->ai_flags & AI_NUMERICSERV) ||
 #endif
-      isdigit(static_cast<unsigned char>(serv[0])))
+      std::isdigit(static_cast<unsigned char>(serv[0])))
   {
     int port = htons(atoi(serv));
     if (hints->ai_socktype)
