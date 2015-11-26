@@ -1,0 +1,7 @@
+bin.v2/
+b2.exe
+bjam.exe
+project-config.jam
+tools/build/v2/engine/bin.ntx86/b2.exe
+tools/build/v2/engine/bin.ntx86/bjam.exe
+tools/build/v2/engine/bootstrap/jam0.exe
